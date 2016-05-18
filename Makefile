@@ -22,7 +22,7 @@ $(MAIN_PDF): $(MAIN_TEX)
 	$(BIBTEX) $(MAIN)
 	$(PDFLATEX) $(MAIN_TEX)
 	$(PDFLATEX) $(MAIN_TEX)
-	make clean
+#	make clean
     
 distclean : clean
 	rm -f $(EXT_DISTCLEAN)
