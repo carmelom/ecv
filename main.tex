@@ -1,5 +1,6 @@
 \documentclass[helvetica,italian,logo,notitle,totpages,utf8]{europecv2013}
 \usepackage{graphicx}
+\usepackage{enumitem}
 \usepackage[a4paper,top=1.2cm,left=1.2cm,right=1.2cm,bottom=2.5cm]{geometry}
 \usepackage[italian]{babel}
 \usepackage[T1]{fontenc}
@@ -7,15 +8,15 @@
 \usepackage{bibentry}
 
 %[Tutti i campi del CV sono facoltativi. Rimuovere i campi vuoti.]
-\ecvname{Sostituire con Nome (i) Cognome (i)}
-\ecvaddress{Sostituire con via, numero civico, codice postale, città, paese }
-\ecvtelephone[Sostituire con numero telefonico]{Sostituire con telefono cellulare}
-\ecvemail{Sostituire con indirizzo e-mail }
-\ecvhomepage{\href{Sostituire con url a pagina personale}{Sostituire con url a pagina personale senza http://}}
-\ecvlinkedin{\href{Sostituire con url al profilo linkedin}{Sostituire con url al profilo linkedin senza http://}}
-\ecvgender{Indicare il sesso}
-\ecvdateofbirth{gg/mm/aaaa}
-\ecvnationality{Indicare la nazionalità}
+\ecvname{Carmelo Mordini}
+\ecvaddress{Via Gian Battista Lampi, 38132 Trento (TN)}
+%\ecvtelephone[Sostituire con numero telefonico]{Sostituire con telefono cellulare}
+\ecvemail{carmelo.mordini@unitn.it}
+%\ecvhomepage{\href{Sostituire con url a pagina personale}{Sostituire con url a pagina personale senza http://}}
+%\ecvlinkedin{\href{Sostituire con url al profilo linkedin}{Sostituire con url al profilo linkedin senza http://}}
+\ecvgender{Maschile}
+\ecvdateofbirth{18/02/1992}
+\ecvnationality{Italiana}
 
 \ecvfootnote{Autorizzo il trattamento dei dati personali ai sensi del \href{http://www.garanteprivacy.it/garante/doc.jsp?ID=1311248}{D. lgs. 196/03}}
 %\ecvbeforepicture{\raggedleft}
@@ -28,73 +29,143 @@
 \begin{europecv}
 \ecvpersonalinfo[10pt]
 
-\ecvposition{Posizione per la quale si concorre
-Posizione ricoperta
-Occupazione desiderata
-Titolo di studio per la quale si concorre}{Sostituire con posizione per la quale si concorre / posizione ricoperta / occupazione desiderata / titolo per il quale si concorre (eliminare le voci non rilevanti nella colonna di sinistra)}
-
-\ecvsection{Esperienza professionale}
-%[Inserire separatamente le esperienze professionali svolte iniziando dalla più recente.]
-
-\ecvworkexperience{Sostituire con date (da - a)}{Sostituire con il lavoro o posizione ricoperta}{Sostituire con il nome del datore di lavoro}{Sostituire con l'indirizzo del datore di lavoro}{Sostituire con le principali attività e responsabilità}
+%\ecvposition{Posizione per la quale si concorre
+%Posizione ricoperta 
+%Occupazione desiderata
+%Titolo di studio per la quale si concorre}{Sostituire con posizione per la quale si concorre / posizione ricoperta / occupazione desiderata / titolo per il quale si concorre (eliminare le voci non rilevanti nella colonna di sinistra)}
 
 \ecvsection{Istruzione e formazione}
 %[Inserire separatamente i corsi frequentati iniziando da quelli più recenti.]
 
-\ecveducation{Sostituire con date (da - a)}{Sostituire con la qualifica rilasciata}{Sostituire con il nome e l'indirizzo dell'organizzazione erogatrice dell'istruzione e formazione}{
-Sostituire con un elenco delle principali materie trattate o abilità acquisite}{Sostituire con il livello QEQ o altro, se conosciuto}
+\ecveducation{2015 -- Oggi}{Dottorato in Fisica}%cosa
+{Università degli Studi di Trento}%ente/scuola
+{}%{Dottorato di ricerca}%materie trattate e abilità acquisite
+{}%Livello QEQ
+\ecveducation{2010 -- Oggi}{Diploma di Licenza Corso Ordinario -- Fisica}%cosa
+{Scuola Normale Superiore, Pisa (PI)}%ente/scuola
+{}%{Diploma di Licenza}%materie trattate e abilità acquisite
+{}%Livello QEQ
+\ecveducation{2013 -- 2015}{Laurea Magistrale in Fisica}%cosa
+{Università di Pisa}%ente/scuola
+{}%materie trattate e abilità acquisite
+{}%Livello QEQ
+\ecveducation{2010 -- 2013}{Laurea Triennale in Fisica}%cosa
+{Università di Pisa}%ente/scuola
+{}%materie trattate e abilità acquisite
+{}%Livello QEQ
+\ecveducation{2010}{Diploma di Maturità Scientifica}%cosa
+{Liceo Scientifico "Leonardo da Vinci", Reggio Calabria (RC)}%ente/scuola
+{}%materie trattate e abilità acquisite
+{}%Livello QEQ
+
 
 \ecvsection{Competenze personali}
 
-\ecvmothertongue[20pt]{Sostituire con la lingua (e) madre}
+\ecvmothertongue[20pt]{Italiano}
 \ecvlanguageheader
-\ecvlanguage{Sostituire con la lingua}{Inserire il livello}{Inserire il livello}{Inserire il livello}{Inserire il livello}{Inserire il livello}
-\ecvlastlanguage{Sostituire con la lingua}{Inserire il livello}{Inserire il livello}{Inserire il livello}{Inserire il livello}{Inserire il livello}
+\ecvlanguage{Inglese}{B2}{C1}{B2}{B2}{B2}
+%\ecvlastlanguage{Sostituire con la lingua}{Inserire il livello}{Inserire il livello}{Inserire il livello}{Inserire il livello}{Inserire il livello}
 \ecvlanguagefooter[10pt]
 
-\ecvitem[10pt]{Competenze comunicative}{Sostituire con le competenze comunicative possedute. Specificare in quale contesto sono state acquisite. Esempio:\par
-possiedo buone competenze comunicative acquisite durante la mia esperienza di direttore vendite}
-\ecvitem[10pt]{Competenze organizzative e gestionali}{Sostituire con le competenze organizzative e gestionali possedute. Specificare in quale contesto sono state acquisite. Esempio: leadership (attualmente responsabile di un team di 10 persone)}
-\ecvitem[10pt]{Competenze tecniche}{Sostituire con le competenze professionali possedute non indicate altrove. Esempio:\par
-buona padronanza dei processi di controllo qualità (attualmente responsabile del controllo qualità) }
-\ecvitem[10pt]{Competenze informatiche}{Sostituire con le competenze informatiche possedute. Specificare in quale contesto sono state acquisite. Esempio: \par
-buona padronanza degli strumenti Microsoft Office}
-\ecvitem[10pt]{Altre competenze}{Sostituire con altre rilevanti competenze non ancora menzionate. Specificare in quale contesto sono state acquisite. Esempio: \par
-falegnameria}
+\ecvitem[10pt]{Certificazioni}{
+	\textbf{Lug 2008:} Trinity Language Examination - Trinity College of London - Livello europeo: B2\par
+	\textbf{Lug 2008:} Preliminary English test (PET) - Cambridge University - Livello europeo: B1\par
+	\textbf{Ago 2009:} First Certificate of English (FCE) - Cambridge University - Livello europeo: B2
+	}
 
-\ecvitem{Patente di guida}{Sostituire con la categoria/e della patente di guida}
+\ecvitem[10pt]{Competenze informatiche}{
+	\textbf{Sistemi Operativi:} Buona \par
+	\textbf{Programmazione:} Ottima \par
+	\textbf{Elaborazione testi:} Ottima \par
+	\textbf{Fogli elettronici:} Ottima \par
+	\textbf{Gestione database:} Discreta \par
+	\textbf{Disegno al computer (CAD):} Discreta\par
+	\textbf{Navigazione in Internet:} Ottima \par
+	\textbf{Multimedia (suoni, immagini, video):} Discreta \par
+	\textbf{Linguaggi di programmazione:} Python, LaTeX, C, Mathematica, Matlab\par
+	\textbf{Applicazioni e programmi conosciuti:} Suite Microsoft Office, Libre Office. Inkscape, Gimp.
+	}
+
+%\ecvitem[10pt]{Competenze comunicative}
+%{Sostituire con le competenze comunicative possedute. Specificare in quale contesto sono state acquisite. Esempio:\par
+%possiedo buone competenze comunicative acquisite durante la mia esperienza di direttore vendite}
+%\ecvitem[10pt]{Competenze organizzative e gestionali}
+%{Sostituire con le competenze organizzative e gestionali possedute. Specificare in quale contesto sono state acquisite. Esempio: leadership (attualmente responsabile di un team di 10 persone)}
+%\ecvitem[10pt]{Competenze tecniche}
+%{Sostituire con le competenze professionali possedute non indicate altrove. Esempio:\par
+%buona padronanza dei processi di controllo qualità (attualmente responsabile del controllo qualità) }
+%\ecvitem[10pt]{Altre competenze}
+%{Sostituire con altre rilevanti competenze non ancora menzionate. Specificare in quale contesto sono state acquisite. Esempio: \par
+%falegnameria}
+
+\ecvitem{Patente di guida}{B}
+
+\ecvsection{Scuole e Seminari}
+\ecvitem[10pt]{21/02/2016}{\textbf{International Conference on Quantum Optics 2016} -- Obergurgl, Tirol (Austria)\par
+	Lo scopo della conferenza è quello di fare incontrare studenti e ricercatori di punta nel campo dell'Ottica Quantistica, per presentare e discutere gli ultimi risultati di questo campo di ricerca emergente.\par
+	A cura di: Hanns-Christoph Nägerl (University of Innsbruck)\par
+%	The conference will bring together outstanding people in Quantum Optics to present and discuss the recent most exciting developments and highlights of this prospering field.	
+	\url{https://www.uibk.ac.at/th-physik/obergurgl2016/}
+	}
+\ecvitem[10pt]{22/06/2015}{\textbf{Cold atoms meet High Energy Physics} -- ECT*, Villazzano, Trento\par
+	Lo scopo del seminario è di favorire discussioni collaborative e scambi di strategie tra fisici appartenenti alle comunità della fisica degli atomi ultrafreddi e della fisica delle alte energie. Gli obiettivi principali di discussione saranno problematiche teoriche di interesse comune, ed implementazioni sperimentali in sistemi di gas ultrafreddi di concetti di base di fisica della particelle.\par
+	A cura di: Sandro Stringari (Università di Trento)\par
+	\url{www.ectstar.eu/node/1292}
+	}
+\ecvitem[10pt]{12/01/2015}{\textbf{International Winter School and Workshop on 'Strongly correlated fluids of light and matter'} -- ECT*, Villazzano, Trento\par
+	La scuola / workshop 'Strongly correlated fluids of light and matter' mira a consolidare il lavoro della comunità internazionale impegnata nel campo emergente dei Fluidi Quantistici di Luce, e a rinforzare le sue interazioni con i campi di studio più tradizionali della fisica dei sistemi a molti corpi, quali gas ultrafreddi o elettroni fortemente correlati.\par
+	A cura di: Iacopo Carusotto (Università di Trento)\par
+	\url{www.ectstar.eu/node/1217}
+	}	
+\ecvitem[10pt]{07/07/2015}{\textbf{Introductory Course on Ultracold Quantum Gases} -- Institute of Quantum Optics and Quantum Information (IQOQI), Innsbruck\par
+	Questo corso breve sarà una prima introduzione all'affascinante campo di ricerca degli atomi freddi e dei gas quantistici ultrafreddi. Tredici lezioni di esperti da Innsbruck, Vienna e Trento copriranno i principali argomenti quali raffreddamento laser, gas di Bose e di Fermi a basse temperature, gas quantistici fortemente correlati, reticoli ottici. Inoltre, gli studenti avranno l'opportunità di visitare laboratori allo stato dell'arte presso l'Università di Innsbruck e l'IQOQI.\par
+	A cura di: Francesca Ferlaino, Rudolph Grimm (University of Innsbruck)\par
+	\url{https://www.uibk.ac.at/sp-physik/events/introductory_course_ultracold_quantum_gases_2015/index.html.en}
+	}
+	
+\ecvsection{Attività didattica}
+%%[Inserire separatamente le esperienze professionali svolte iniziando dalla più recente.]
+
+\ecvworkexperience{Mar 2016 -- Oggi}{Collaboratore alla didattica}
+{Corso di Fisica I -- docenti titolari: G. Monaco, F. Pederiva}%Cosa e con chi
+{Dipartimento di Ingegneria Civile, Ambientale e Meccanica (DICAM),\newline via Mesiano 77, Trento (TN)}%Dove
+{Preparazione delle esercitazioni svolte in classe in parallelo alle lezioni frontali; collaborazione alla preparazione dei compitini e degli esami finali; correzione delle prove scritte e valutazione degli esami orali.}%Principali attività
+\ecvworkexperience{Feb 2014 -- Lug 2014}{Orientamento universitario}
+{Organizzazione dei corsi di orientamento universitario della Scuola Normale Superiore \newline \url{http://www.sns.it/didattica/orientamento/}}%Cosa e con chi
+{Segreteria della Scuola Normale Superiore, Piazza dei Cavalieri 7, Pisa (PI)}%Dove
+{Organizzazione dei corsi di orientamento universitario; selezione degli studenti candidati; attività di tutorato per gli studenti selezionati; attività d'ufficio; cura dell'ospitalità di studenti e docenti; cura delle pubblicazioni collegate.}%Principali attività
 
 \ecvsection{Ulteriori informazioni}
+\ecvitem[10pt]{Dati personali}{Autorizzo il trattamento dei miei dati personali ai sensi del Decreto Legislativo 30 giugno 2003, n. 196 "Codice in materia di protezione dei dati personali".\par
+Le informazioni in esso contenute vengono rese ai sensi e per gli effetti degli artt. 46 e 47 del DPR
+445/2000.}
+%\ecvitem[10pt]{Pubblicazioni
+%Presentazioni
+%Progetti
+%Conferenze
+%Seminari
+%Riconoscimenti e premi
+%Appartenenza a gruppi / associazioni
+%Referenze}{Sostituire con rilevanti pubblicazioni, presentazioni, progetti, conferenze, seminari, riconoscimenti e premi, appartenenza a gruppi/associazioni, referenze: Rimuovere le voci non rilevanti nella colonna di sinistra.}
 
-\ecvitem[10pt]{Pubblicazioni
-Presentazioni
-Progetti
-Conferenze
-Seminari
-Riconoscimenti e premi
-Appartenenza a gruppi / associazioni
-Referenze}{Sostituire con rilevanti pubblicazioni, presentazioni, progetti, conferenze, seminari, riconoscimenti e premi, appartenenza a gruppi/associazioni, referenze: Rimuovere le voci non rilevanti nella colonna di sinistra.}
-
-\ecvitem[10pt]{Dati personali}{Autorizzo il trattamento dei miei dati personali ai sensi del Decreto Legislativo 30 giugno 2003, n. 196 "Codice in materia di protezione dei dati personali (facoltativo)".}
 
 
-
-\ecvsection{Allegati}
-
-\ecvitem[10pt]{}{Sostituire con la lista di documenti allegati al CV. Esempio:
-\begin{itemize}
-\item copie delle lauree e qualifiche conseguite; 
-\item attestazione di servizio;
-\item attestazione del datore di lavoro.
-\end{itemize}}
-
-\bibliographystyle{plain}
-\nobibliography{publications} % bib file name
-
-\ecvsection{Publications}
-
-\ecvitem{Pub1}{\bibentry{pub1}}
-\ecvitem{Pub2}{\bibentry{pub2}}
+%\ecvsection{Allegati}
+%
+%\ecvitem[10pt]{}{Sostituire con la lista di documenti allegati al CV. Esempio:
+%\begin{itemize}
+%\item copie delle lauree e qualifiche conseguite; 
+%\item attestazione di servizio;
+%\item attestazione del datore di lavoro.
+%\end{itemize}}
+%
+%\bibliographystyle{plain}
+%\nobibliography{publications} % bib file name
+%
+%\ecvsection{Pubblicazioni}
+%
+%\ecvitem{Pub1}{\bibentry{pub1}}
+%\ecvitem{Pub2}{\bibentry{pub2}}
 
 \end{europecv}
 \end{document} 
