@@ -17,16 +17,15 @@ pdf : $(MAIN_PDF)
 pdflatex : $(MAIN_PDF)
 	$(PDFLATEX) $(MAIN_TEX)
 
-$(MAIN_PDF): $(MAIN_TEX) 
+$(MAIN_PDF): $(MAIN_TEX)
 	$(PDFLATEX) $(MAIN_TEX)
 	$(BIBTEX) $(MAIN)
 	$(PDFLATEX) $(MAIN_TEX)
 	$(PDFLATEX) $(MAIN_TEX)
-#	make clean
-    
+	cp $(MAIN_PDF) CV-Carmelo-Mordini-$$(date +%Y-%m-%d).pdf
+
 distclean : clean
 	rm -f $(EXT_DISTCLEAN)
-	
+
 clean :
 	rm -f $(EXT_CLEAN)
-
